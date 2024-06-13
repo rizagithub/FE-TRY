@@ -1,0 +1,30 @@
+.hero-title{
+    padding-top: 220px;
+}
+
+.img-landing{
+    width:300px;
+}
+.img-list{
+    width:200px;
+}
+.img-title{
+    width:210px;
+}
+
+@media (max-width: 676px) {
+    .hero-title {
+      padding-top: 130px !important; /* Ubah padding-top untuk layar sangat kecil (hingga 576px) */
+    }
+  
+    .img-landing {
+      display: none;
+    }
+  
+    .img-title {
+      width: 100px; /* Ubah lebar gambar title untuk layar sangat kecil */
+    }
+    .crs{
+        display: none;
+    }
+  }
