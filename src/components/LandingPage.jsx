@@ -57,21 +57,21 @@ const LandingPage = () => {
           <Carousel.Item>
             <img
               className="d-block img-landing"
-              src="./public/images/icon-flower.png" // Ganti dengan path gambar slide 1
+              src="/images/icon-flower.png" // Ganti dengan path gambar slide 1
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block img-landing"
-              src="./public/images/icon-flower.png" // Ganti dengan path gambar slide 2
+              src="/images/icon-flower.png" // Ganti dengan path gambar slide 2
               alt="Second slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block img-landing"
-              src="./public/images/icon-flower.png" // Ganti dengan path gambar slide 3
+              src="/images/icon-flower.png" // Ganti dengan path gambar slide 3
               alt="Third slide"
             />
           </Carousel.Item>
@@ -80,7 +80,7 @@ const LandingPage = () => {
         <Col lg={6}>
           <h1 className='text-dark ms-3'>Welcome To the
             <span>
-            <img src="./public/images/long.png" className="img-title ms-2" alt="Logo Icon Flower Long" />
+            <img src="/images/long.png" className="img-title ms-2" alt="Logo Icon Flower Long" />
             </span>
           </h1>
           <h5 className="fst-italic ms-3 mb-3" style={{ color: '#FF6969' }}>Anything you want for Apps!</h5>
