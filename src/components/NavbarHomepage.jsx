@@ -25,7 +25,7 @@ const NavbarHomepage = () => {
         <div className="branding d-flex align-items-center">
           <div className="container position-relative d-flex align-items-center justify-content-between">
             <a href="index.html" className="logo d-flex align-items-center">
-              <Image className="icon-flower mr-1" src="./public/images/dc.png" alt="login icon" />
+              <Image className="icon-flower mr-1" src="/images/dc.png" alt="login icon" />
               <h1 className="sitename">Primapps</h1>
             </a>
             <nav id="navmenu" className="navmenu">
